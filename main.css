@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color:rgb(19,19,19);
+}
+
+h1 {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-top:2px;
+    color:grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(0,178,230);
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+
+    transition: opacity 0.3s, border-radius 0.3s;
+}
+
+a:hover {
+    opacity:0.5;
+    border-radius: 2px;
+}
+
+
+
+a:active {
+    opacity:0.2;
+}
+
+.main-div {
+    margin-left: 10%;
+    margin-top:18%;
+    width: 20%;
+    margin-bottom: 35%;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.second-div {
+    display: flex;
+}
+
+.personal-monthly {
+    margin-top:50px;
+    padding-top:15px;
+    margin-left:15%;
+    margin-bottom: 20%;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    color:white;
+    text-align: center;
+    display: block;
+    width: 20%;
+    height: 30%;
+    background: rgb(15,15,15);
+}
+
+.personal-lifetime {
+    margin-top:50px;
+    margin-left:5%;
+    padding-top:15px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    color:white;
+    text-align: center;
+
+    width: 20%;
+    height: 30%;
+    background: rgb(15,15,15);
+}
+
+.enterprise {
+    margin-top:50px;
+    margin-left:5%;
+    padding-top:15px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    color:white;
+    text-align: center;
+
+    width: 20%;
+    height: 30%;
+    background: rgb(15,15,15);
+}
+
+.support {
+    margin-bottom: 40%;
+}
